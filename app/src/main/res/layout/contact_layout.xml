@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_gray"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/normal_space"
+            android:text="联系我们"
+            android:textColor="@color/my_nick_name"
+            android:textSize="@dimen/title_text_size" />
+
+        <ImageView
+            android:id="@+id/backView"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:scaleX="0.7"
+            android:scaleY="0.7"
+            android:src="@drawable/back_button" />
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_gray"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+    </View>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_gray"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@color/white"
+                android:padding="@dimen/normal_space">
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/qq"
+                    android:layout_marginLeft="2dp"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="6dp"
+                    android:drawablePadding="3dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/my_nick_name"
+                    android:text="QQ"
+                    android:textSize="@dimen/text_size_default" />
+                <TextView
+                    android:layout_width="180dp"
+                    android:gravity="center|right"
+                    android:textSize="@dimen/info_text_size"
+                    android:text="1327381035"
+                    android:textColor="@color/text_gray"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/row_space"
+                android:layout_marginLeft="20dp"
+                android:background="@color/line_gray" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@color/white"
+                android:padding="@dimen/normal_space">
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/e_mail"
+                    android:layout_marginLeft="2dp"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="6dp"
+                    android:drawablePadding="3dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/my_nick_name"
+                    android:text="邮箱"
+                    android:textSize="@dimen/text_size_default" />
+                <TextView
+                    android:layout_width="180dp"
+                    android:gravity="center|right"
+                    android:textSize="@dimen/info_text_size"
+                    android:text="smart_class@163.com"
+                    android:textColor="@color/text_gray"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/row_space"
+                android:layout_marginLeft="20dp"
+                android:background="@color/line_gray" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@color/white"
+                android:padding="@dimen/normal_space">
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/wechat"
+                    android:layout_marginLeft="2dp"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="6dp"
+                    android:drawablePadding="3dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/my_nick_name"
+                    android:text="微信"
+                    android:textSize="@dimen/text_size_default" />
+                <TextView
+                    android:layout_width="180dp"
+                    android:gravity="center|right"
+                    android:textSize="@dimen/info_text_size"
+                    android:text="智慧课堂公众号"
+                    android:textColor="@color/text_gray"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/row_space"
+                android:layout_marginLeft="20dp"
+                android:background="@color/line_gray" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@color/white"
+                android:padding="@dimen/normal_space">
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/weibo"
+                    android:layout_marginLeft="2dp"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="6dp"
+                    android:drawablePadding="3dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/my_nick_name"
+                    android:text="微博"
+                    android:textSize="@dimen/text_size_default" />
+                <TextView
+                    android:layout_width="180dp"
+                    android:gravity="center|right"
+                    android:textSize="@dimen/info_text_size"
+                    android:text="智慧课堂微博"
+                    android:textColor="@color/text_gray"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/row_space"
+                android:layout_marginLeft="20dp"
+                android:background="@color/line_gray" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@color/white"
+                android:padding="@dimen/normal_space">
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/tel"
+                    android:layout_marginLeft="2dp"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="6dp"
+                    android:drawablePadding="3dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/my_nick_name"
+                    android:text="电话"
+                    android:textSize="@dimen/text_size_default" />
+                <TextView
+                    android:layout_width="180dp"
+                    android:gravity="center|right"
+                    android:textSize="@dimen/info_text_size"
+                    android:text="0315-8800356"
+                    android:textColor="@color/text_gray"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_gray"/>
+</LinearLayout>

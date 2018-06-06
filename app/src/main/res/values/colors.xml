@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--基本界面-->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="di_gray">#a8a8a8</color>
+    <color name="line_gray">#d9d9d9</color>
+    <color name="background_gray">#f4f4f4</color>
+    <color name="person_title_blue">#1795D0</color><!--主题色：智慧蓝-->
+    <color name="black">#000000</color>
+    <color name="text_gray">#a8a8a8</color>
+    <color name="comment_background">#ecf5fc</color>
+
+    <!--按钮-->
+    <color name="red_button">#E64340</color>
+    <color name="red_button_pressed">#CE3C39</color>
+    <color name="disable_green_button">#A3DEA3</color>
+    <color name="disable_green_text">#DAF2DA</color>
+    <color name="green_button">#1AAD19</color>
+    <color name="green_button_pressed">#179816</color>
+    <color name="text_color">#FFFFFF</color>
+    <color name="red_text_pressed_color">#ECB1B0</color>
+    <color name="green_text_pressed_color">#A2D7A2</color>
+    <color name="blue_button">#1EB9F2</color>
+    <color name="blue_button_pressed">#0E98CB</color>
+    <color name="blue_text_pressed_color">#86CBE5</color>
+
+    <color name="right_title_button_unable">#551795D0</color>
+    <color name="right_title_button_enable">#1795D0</color>
+
+    <!--其他-->
+    <color name="no_picture">#EEEEEE</color>
+    <color name="layout_pressed">#D9D9D9</color>
+    <!--PersonFragment-->
+    <color name="my_nick_name">#333333</color>
+    <color name="others_for_person">#343434</color>
+    <color name="nicke_name">#b1b1b1</color>
+    <color name="layout_color">#affeff</color>
+    <color name="text_content">#b2b2b2</color>
+    <!--ResourceFragment-->
+    <color name="title">#2f333c</color>
+    <color name="list_title">#9f9f9f</color>
+    <!--HomeFragment-->
+    <!--题目用色-->
+    <color name="correct_color">#cceeff</color>
+    <color name="fault_color">#ffbebe</color>
+
+</resources>

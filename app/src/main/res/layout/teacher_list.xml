@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/teacher_layout">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/normal_space"
+        android:id="@+id/text_content">
+
+        <ImageView
+            android:layout_width="105dp"
+            android:layout_height="147dp"
+            android:id="@+id/online_picture"
+            android:background="@color/no_picture"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp">
+
+            <TextView
+                android:text="去评价>>"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/person_title_blue"
+                android:gravity="center_vertical|end"/>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:paddingTop="5dp"
+                android:paddingLeft="@dimen/normal_space">
+
+                <TextView
+                    android:text="科目"
+                    android:textColor="@color/my_nick_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/button_text_size"
+                    android:layout_weight="0.2" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:textColor="@color/my_nick_name"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/info_text_size"
+                    android:layout_weight="0.8"
+                    android:maxLines="1"
+                    android:id="@+id/subject" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:paddingTop="@dimen/normal_space"
+                android:paddingLeft="@dimen/normal_space">
+
+                <TextView
+                    android:text="教师"
+                    android:textColor="@color/my_nick_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/button_text_size"
+                    android:layout_weight="0.2" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:textColor="@color/my_nick_name"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/info_text_size"
+                    android:layout_weight="0.8"
+                    android:maxLines="1"
+                    android:id="@+id/teacher" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:paddingTop="@dimen/normal_space"
+                android:paddingLeft="@dimen/normal_space">
+
+                <TextView
+                    android:text="邮箱"
+                    android:textColor="@color/my_nick_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/button_text_size"
+                    android:layout_weight="0.2" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:textColor="@color/my_nick_name"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/info_text_size"
+                    android:layout_weight="0.8"
+                    android:maxLines="1"
+                    android:id="@+id/email" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:paddingTop="@dimen/normal_space"
+                android:paddingLeft="@dimen/normal_space">
+
+                <TextView
+                    android:text="电话"
+                    android:textColor="@color/my_nick_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/button_text_size"
+                    android:layout_weight="0.2" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:textColor="@color/my_nick_name"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/info_text_size"
+                    android:layout_weight="0.8"
+                    android:maxLines="1"
+                    android:id="@+id/tel" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:gravity="center">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/line_gray"
+            android:layout_weight="0.9"
+            >
+        </View>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">智慧课堂</string>
+    <string name="title_activity_main_layout">MainLayoutActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_contact_activity">ContactActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_suggestion">SuggestionActivity</string>
+    <string name="title_activity_change_password">ChangePasswordActivity</string>
+    <string name="title_activity_my_teacher">MyTeacherActivity</string>
+    <string name="title_activity_comment_teacher">CommentTeacherActivity</string>
+    <string name="title_activity_question_set_subject">QuestionSetSubjectActivity</string>
+    <string name="title_activity_question">QuestionActivity</string>
+    <string name="title_activity_my_comment">MyCommentActivity</string>
+    <string name="title_activity_ppt">PPTActivity</string>
+    <string name="title_activity_live_question">LiveQuestionActivity</string>
+    <string name="title_activity_frames">FramesActivity</string>
+    <string name="title_activity_personal_sculpture">PersonalSculptureActivity</string>
+    <string name="title_activity_quick_note">QuickNoteActivity</string>
+    <string name="title_activity_notes_list">NotesListActivity</string>
+    <string name="title_activity_comment_question">CommentQuestionActivity</string>
+    <string name="title_activity_wrong_set_setting">WrongSetSetting</string>
+</resources>

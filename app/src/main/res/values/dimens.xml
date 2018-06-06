@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!--间距-->
+    <dimen name="di_space">3dp</dimen>
+    <dimen name="edit_padding">1dp</dimen>
+    <dimen name="login_title_space">15dp</dimen>
+    <dimen name="normal_space">10dp</dimen>
+    <dimen name="row_space">1dp</dimen>
+    <dimen name="drawable_padding">5dp</dimen>
+    <dimen name="single_setting">28dp</dimen>
+    <!--字体-->
+    <dimen name="text_size_default">18sp</dimen>
+    <dimen name="title_text_size">20sp</dimen>
+    <dimen name="normal_text_size">15sp</dimen>
+    <dimen name="info_text_size">16sp</dimen>
+    <dimen name="button_text_size">17sp</dimen>
+    <!--PersonFragmentTextSize-->
+    <dimen name="my_nick_name">24sp</dimen>
+    <dimen name="text_for_person">18sp</dimen>
+    <!--ResourceFragment-->
+    <dimen name="title">18sp</dimen>
+    <dimen name="link_text">12sp</dimen>
+
+</resources>

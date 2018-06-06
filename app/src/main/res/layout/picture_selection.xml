@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:text="拍  照"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/black"
+        android:padding="@dimen/normal_space"
+        android:background="@drawable/layout_color"
+        android:clickable="true"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/take_photo" />
+
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@color/line_gray"/>
+
+    <TextView
+        android:text="从相册选择"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/black"
+        android:padding="@dimen/normal_space"
+        android:gravity="center"
+        android:background="@drawable/layout_color"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pick_photo" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="#737374"/>
+
+    <TextView
+        android:text="取  消"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/black"
+        android:padding="@dimen/normal_space"
+        android:gravity="center"
+        android:background="@drawable/layout_color"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cancel" />
+</LinearLayout>

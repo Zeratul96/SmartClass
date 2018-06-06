@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    style="@style/layout_full"
+    android:background="@color/background_gray"
+    >
+
+    <LinearLayout
+        style="@style/layout_vertical"
+        android:layout_weight="10"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <include layout="@layout/person_title" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line_gray"/>
+
+        <include layout="@layout/person_chooser_list" />
+    </LinearLayout>
+
+</LinearLayout>

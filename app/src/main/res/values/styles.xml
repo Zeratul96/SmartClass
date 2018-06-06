@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+          <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+          <!-- 隐藏状态栏 -->
+          <item name="android:windowFullscreen">false</item>
+          <!-- 隐藏标题栏 -->
+          <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- 全屏幕拉伸-->
+    <style name="layout_full">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+
+    <!-- 纵向分布-->
+    <style name="layout_vertical" parent="layout_full">
+        <item name="android:layout_height">0px</item>
+    </style>
+
+
+
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+    <item name="android:background">#FFFFFF</item>
+    </style>
+
+</resources>

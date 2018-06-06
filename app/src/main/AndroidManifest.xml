@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bn.smartclass_android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.bn.welcome.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bn.main.MainActivity"
+            android:label="@string/title_activity_main" />
+        <activity
+            android:name="com.bn.settings.SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name="com.bn.settings.ContactActivity"
+            android:label="@string/title_activity_contact_activity" />
+        <activity
+            android:name="com.bn.main.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name="com.bn.settings.AboutActivity"
+            android:label="@string/title_activity_about" />
+        <activity
+            android:name="com.bn.settings.SuggestionActivity"
+            android:label="@string/title_activity_suggestion" />
+        <activity
+            android:name="com.bn.settings.ChangePasswordActivity"
+            android:label="@string/title_activity_change_password" />
+
+        <activity android:name="com.bn.person.MyTeacherActivity"/>
+        <activity
+            android:name="com.bn.person.CommentTeacherActivity"
+            android:label="@string/title_activity_comment_teacher" />
+        <activity
+            android:name="com.bn.question.QuestionSetSubjectActivity"
+            android:label="@string/title_activity_question_set_subject" />
+        <activity
+            android:name="com.bn.question.QuestionActivity"
+            android:label="@string/title_activity_question" />
+
+        <activity android:name="com.bn.person.MyCommentActivity"/>
+        <activity
+            android:name="com.bn.broadcast.PPTActivity"
+            android:label="@string/title_activity_ppt"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.bn.broadcast.LiveQuestionActivity"
+            android:label="@string/title_activity_live_question" />
+
+        <activity android:name="com.bn.person.PersonCenterActivity"/>
+        <activity android:name="com.bn.person.UpdateUserNickNameActivity" />
+        <activity android:name="com.bn.person.UpdateUserTelActivity" />
+        <activity android:name="com.bn.person.UpdateUserGenderActivity" />
+
+        <activity
+            android:name="com.bn.main.QuickNoteActivity"
+            android:label="@string/title_activity_quick_note" />
+        <activity
+            android:name="com.bn.question.CommentQuestionActivity"
+            android:label="@string/title_activity_comment_question" />
+        <activity android:name="com.bn.question.WrongSetSubjectActivity" />
+        <activity android:name="com.bn.question.IncorrectActivity" />
+        <activity android:name="com.bn.question.CommentDetailActivity" />
+        <activity
+            android:name="com.bn.settings.WrongSetSettingActivity"
+            android:label="@string/title_activity_wrong_set_setting"/>
+        <activity android:name="com.bn.main.ArticleActivity"/>
+        <activity android:name="com.bn.main.ForgetPasswordActivity"/>
+        <activity android:name="com.bn.main.OnLineClassActivity"/>
+        <activity android:name="com.bn.main.SchoolCampaignActivity"/>
+
+        <activity android:name="com.bn.person.EditNotesActivity"/>
+
+
+        <activity android:name="com.bn.person.NotesListActivity"/>
+        <activity android:name="com.bn.person.PersonalSculptureActivity"/>
+
+
+        <service android:name="com.bn.main.OnlineClassService"/>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.bn.person.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_path"
+                />
+        </provider>
+        <provider
+            android:name="com.bn.database.MyContentProvider"
+            android:authorities="smartclass_android.app_data"
+            />
+
+    </application>
+
+</manifest>

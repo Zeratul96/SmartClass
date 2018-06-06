@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/background_gray">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.bigkoo.convenientbanner.ConvenientBanner
+                android:id="@+id/convenientBanner"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                app:canLoop="true"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="@color/background_gray"
+                android:id="@+id/con_view" />
+
+            <TextView
+                android:text="今日课程"
+                android:textColor="@color/title"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/today_course"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:layout_marginLeft="@dimen/normal_space"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_default" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginLeft="20dp"
+                android:background="@color/background_gray"/>
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/list_for_course"
+                android:scrollbars="none"
+                android:divider="@null" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="@color/background_gray"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/normal_space"
+                android:id="@+id/create_notes">
+
+                <TextView
+                    android:text="快速笔记"
+                    android:textColor="@color/title"
+                    android:gravity="center_vertical"
+                    android:drawableLeft="@drawable/note"
+                    android:drawablePadding="10dp"
+                    android:layout_marginLeft="@dimen/normal_space"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_default"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/create_notes"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="@color/background_gray"
+                android:id="@+id/article_view" />
+
+            <TextView
+                android:text="精品文章"
+                android:textColor="@color/title"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/book"
+                android:drawablePadding="10dp"
+                android:padding="10dp"
+                android:layout_marginLeft="@dimen/normal_space"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_default"
+                android:id="@+id/article_title" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginLeft="20dp"
+                android:background="@color/background_gray"
+                android:layout_height="3dp"
+                android:id="@+id/art_view2" />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/list_for_article"
+                android:scrollbars="none"
+                android:divider="@null"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/background_gray"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
